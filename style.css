@@ -3,22 +3,65 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/* 320 - 480 */
+        .nav{
+            background-color: white;
+        }
+        
+        .nav_li{
+            float: left;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 32px;
+            padding-right: 26.25px;
+            background-color: rgba(226, 226, 226, 0.39);
+        }
+        
+        .nav_li:hover{
+            background-color: rgba(0, 255, 255, 0.11);
+        }
 
-.nav{
-    background-color: white;
-}
+        .a_nav{
+            text-decoration: none;
+            color: black;
+            font-style: oblique;
+        }
 
-.nav_li{
-    float: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 27px;
-    padding-right: 18.75px;
-    background-color: aliceblue;
-}
+        .outer1{
+            padding : 45px;
+            background: linear-gradient(to right, pink, rgb(107, 107, 119));
+            max-height: 120px;
+        }
 
-.a_nav{
-    text-decoration: none;
-    color: black;
-    font-style: oblique;
-}
+        .l1{
+            line-height: 0.1rem;
+            color: rgba(37, 7, 43, 0.404);
+        }
+        .l2{
+            line-height: 0.8rem;
+        }
+        .l2:hover{
+            font-style: oblique;
+        }
+
+        .box1{
+            background-color: rgba(240, 248, 255, 0.253);
+            width: fit-content;
+            padding: 5px;
+            border-radius: 15px;
+        }
+        .box1:hover{
+            background-color: rgba(245, 245, 220, 0.425);
+        }
+
+        .box1a{
+            text-decoration: none;
+            font-style: inherit;
+        }
+
+        .img1{
+            position: absolute;
+            width: 120px;
+            margin-top: 2px;
+            margin-left: 230px;
+        }
