@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(201, 194, 194);
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    background-color: white;
+}
+
+.nav_li{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 26.25px;
+    background-color: aliceblue;
+}
+
+.a_nav{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+}
