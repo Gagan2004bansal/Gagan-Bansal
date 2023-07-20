@@ -17,7 +17,7 @@
 
     <div class="flex-container1">
       <div class="flex-item-left">
-        <img src="myphoto.jpeg" class="image" />
+        <img src="p.jpeg" class="image" />
         <div class="line"></div>
         <h1 class="Headname">
           Hi, I am <span class="namemy">GAGAN BANSAL</span>
@@ -44,12 +44,17 @@
           content managers such as Joomla! and WordPress, and CSS libraries such
           as Semantic UI.[6]
         </p>
-        <button class="cbtn">Contact Us</button>
+        <button
+          class="cbtn"
+          onClick="document.getElementById('flex-conatiner5').scrollIntoView()"
+        >
+          Contact Us
+        </button>
       </div>
     </div>
 
     <h1 class="project">Projects</h1>
-    <div class="flex-container2">
+    <div class="flex-container2" >
       <div class="first">
         <div>
           <img src="1.jpg" class="pimg" alt="error" />
@@ -103,41 +108,88 @@
         </div>
       </div>
     </div>
-
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <div class="conatiner3">
       <h1 class="contacthead">LET'S CHAT!</h1>
       <h3 class="tagline">Here are some social media account's</h3>
       <div class="c1">
-        <a href="" class="alink"
+        <a href="https://www.instagram.com/in/gaganbansal04/" class="alink"
           ><i class="fa-brands fa-instagram fa-2xl" style="color: #0c0345"></i>
           Instagram</a
         >
       </div>
       <div class="c2">
-        <a href="" class="alink"
+        <a
+          href="https://twitter.com/bansalgagan2004?t=thCinUZJ-MV-zWfio6BV7Q&s=09"
+          class="alink"
           ><i class="fa-brands fa-twitter fa-2xl" style="color: #0c0345"></i>
           Twitter</a
         >
       </div>
       <div class="c3">
-        <a href="" class="alink"
+        <a href="https://www.linkedin.com/in/bansalgagan2004/" class="alink"
           ><i class="fa-brands fa-linkedin fa-2xl" style="color: #0c0345"></i>
           Linkedin</a
         >
       </div>
       <div class="c4">
-        <a href="" class="alink"
+        <a href="https://t.me/GAGANBANSAL13" class="alink"
           ><i class="fa-brands fa-telegram fa-2xl" style="color: #0c0345"></i>
           Telegram</a
         >
       </div>
-      <div class="footer">
+      <div class="footer" id="flex-conatiner5">
         <h3 class="tagline1">Links to some other Websites</h3>
-        <div class="5">Github</div>
-        <div class="5">LeetCode</div>
-        <div class="5">Code Studio</div>
-        <div class="5">Gmail</div>
-        <div class="5">+91 9996892070</div>
+        <div class="c5c">
+          <div class="c5">
+            <a href="https://github.com/Gagan2004bansal" class="alink1"
+              ><i class="fa-brands fa-github fa-lg" style="color: #0c0345"></i>
+              Github</a
+            >
+          </div>
+          <div class="c5">
+            <a href="https://leetcode.com/Gagan_Bansal/" class="alink1"
+              ><svg
+                class="svgtag"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>LeetCode</title>
+                <path
+                  d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"
+                />
+              </svg>
+              LeetCode</a
+            >
+          </div>
+          <div class="c5">
+            <a
+              href="https://www.codingninjas.com/studio/profile/Gaganbansal04"
+              class="alink1"
+              ><svg
+                class="svgtag"
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Coding Ninjas</title>
+                <path
+                  d="M23.198 0c-.499.264-1.209.675-1.79.984a542.82 542.82 0 000 6.242c.995-.526 1.761-.834 1.79-2.066V0zM8.743.181C7.298.144 5.613.65 4.47 1.414c-1.17.8-1.987 1.869-2.572 3.179A16.787 16.787 0 00.9 8.87c-.15 1.483-.128 3.079.025 4.677.27 1.855.601 3.724 1.616 5.456 1.57 2.62 4.313 4.109 7.262 4.19 3.41.246 7.233.53 11.411.807.022-2.005.01-5.418 0-6.25-3.206-.21-7.398-.524-11.047-.782-.443-.043-.896-.056-1.324-.172-1.086-.295-1.806-.802-2.374-1.757-.643-1.107-.875-2.832-.797-4.294.11-1.27.287-2.41 1.244-3.44.669-.56 1.307-.758 2.161-.84 5.17.345 7.609.53 12.137.858.032-1.133.01-3.46 0-6.229C16.561.752 12.776.474 8.743.181zm-.281 9.7c.174.675.338 1.305.729 1.903.537.832 1.375 1.127 2.388.877.76-.196 1.581-.645 2.35-1.282zm12.974 1.04l-5.447.689c.799.739 1.552 1.368 2.548 1.703.988.319 1.78.01 2.308-.777.209-.329.56-1.148.591-1.614zm.842 6.461c-.388.01-.665.198-.87.355.002 1.798 0 4.127 0 6.223.586-.297 1.135-.644 1.793-.998-.005-1.454.002-3.137-.005-4.707a.904.904 0 00-.917-.873z"
+                />
+              </svg>
+              Code Studio</a
+            >
+          </div>
+          <div class="c5">
+            <a href="" class="alink1"
+              ><i class="fa-solid fa-envelope fa-lg"></i> Gmail</a
+            >
+          </div>
+        </div>
+        <h3 class="designed">
+          Designed By Gagan Bansal <i class="fa-solid fa-layer-group"></i> 2023
+        </h3>
       </div>
     </div>
 
