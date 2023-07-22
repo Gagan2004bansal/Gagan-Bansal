@@ -6,14 +6,14 @@ const textLoad = () =>{
     }, 0);
     setTimeout( () => {
         text.textContent = "Freelancer";
-    }, 2000);
+    }, 3000);
     setTimeout( () => {
         text.textContent = "Designer";
-    }, 4000);
+    }, 6000);
 }
 
 textLoad();
-    setInterval(textLoad, 6000);
+    setInterval(textLoad, 9000);
 
     let mybutton = document.getElementById("myBtn");
 
@@ -33,3 +33,10 @@ textLoad();
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
+
+
+  /* DARK MODE */
+  function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
